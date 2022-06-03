@@ -1,0 +1,154 @@
+/* Main heading/intro styles */
+.container {
+	/* max-width: 1100px; */
+	margin: 0 auto;
+}
+
+.nav-bar {
+	width: 100%;
+	height: 65px;
+	background: #00adb5;
+	color: #222831;
+}
+
+.nav-bar .contact {
+	font-size: 18px;
+	transition: 0.2s;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #222831;
+	transition: 0.2s;
+}
+
+.nav-bar a:hover {
+	color: #fff;
+}
+
+.nav-bar .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.nav-bar ul {
+	display: flex;
+}
+
+.nav-bar ul li {
+	margin-left: 20px;
+}
+
+.intro {
+  width: 600px;
+  padding-left: 75px;
+}
+
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header .container div {
+	margin-left: 20px;
+}
+
+.header .container h1 {
+	text-align: left;
+	font-size: 3.5rem;
+}
+
+.header .container p {
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+.header .container img {
+	width: 700px;
+	margin: 50px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.goal-statement > .container {
+	width: 100%;
+	height: 500px;
+	background-color: #dfdfde;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.goal {
+	width: 50%;
+}
+
+.goal h1 {
+	text-align: center;
+	font-size: 2.2rem;
+}
+
+.goal p {
+	text-align: justify;
+	font-size: 1.2rem;
+}
+
+.about .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
+.about .container div {
+	margin: 20px;
+}
+
+.about-me {
+	width: 600px;
+}
+
+.about img {
+	width: 700px;
+	margin: 50px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+}
+
+.about h1 {
+	text-align: left;
+	font-size: 3.5rem;
+}
+
+.about p {
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+.footer {
+	width: 100%;
+	height: 400px;
+	background: #00adb5;
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	flex-direction: column;
+}
+
+.footer > .hello-wrapper {
+	margin-top: 100px;
+	margin-left: 15px;
+}
+
+.footer > .icon-wrapper {
+	margin-bottom: 20px;
+	width: 120px;
+	display: flex;
+	justify-content: space-around;
+}
